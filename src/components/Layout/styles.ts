@@ -21,12 +21,16 @@ export const Container = styled.div`
       }
   }
 
-  .left-column, .right-column {
+  .left-column, 
+  .right-column {
       display: none;
   }
 
   @media (min-width: 1180px) {
+    .left-column, 
+    .right-column {
       display: unset;
+  }
   }
 
   .middle-column {
