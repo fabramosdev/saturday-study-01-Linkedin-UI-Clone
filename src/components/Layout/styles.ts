@@ -18,17 +18,20 @@ export const Container = styled.div`
 
       > span {
           margin-top: 52px;
+          padding: 8px 0;
       }
   }
 
   .left-column, 
-  .right-column {
+  .right-column,
+  .ad-banner {
       display: none;
   }
 
   @media (min-width: 1180px) {
     .left-column, 
-    .right-column {
+    .right-column,
+    .ad-banner {
       display: unset;
   }
   }
